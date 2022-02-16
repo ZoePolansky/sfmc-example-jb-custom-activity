@@ -2,9 +2,12 @@
   "name": "sfmc-jb-custom-activity-example",
   "version": "0.0.1",
   "main": "app.js",
-  "author": "Salesforce Marketing Cloud",
+  "author": "Weku solutions",
   "description": "Journey Builder Custom Activities",
   "license": "BSD-3-Clause",
+  "engines": {
+    "node": "12.x"
+  },
   "scripts": {
     "dev": "concurrently \"npm start\" \"webpack --watch\"",
     "build": "webpack --mode production",
